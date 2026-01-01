@@ -1,4 +1,4 @@
-aiohttp
+aiohttp[speedups]
 aiofiles
 aioshutil
 anytree==2.8.0
@@ -30,17 +30,17 @@ psutil
 pybase64
 pycountry
 pymongo
-git+https://github.com/Hrishi2861/pyrofork-2.2.11-peer-fix.git
+pyrofork==2.2.11
 python-dotenv
 python-magic
-pytz
 qbittorrent-api
 requests
 speedtest-cli
 telegraph
 tenacity
 tgcrypto
-uv
 uvloop==0.21.0
+uv
 xattr
-yt-dlp[default,curl-cffi]
+yt-dlp==2023.10.13
+pytz
